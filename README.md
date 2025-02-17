@@ -65,11 +65,11 @@ In this project, we developed a sentiment classification system using the Rotten
 ## Installation
 1. **Clone the repository:**
    ```
-   git clone <repository_url>
+   git clone https://github.com/KrisCholakov02/SC4002-Sentiment-Analysis.git
    ```
 2. **Navigate to the project directory:**
    ```
-   cd <repository_directory>
+   cd SC4002-Sentiment-Analysis
    ```
 3. **Install the required Python packages:**
    ```
