@@ -37,29 +37,26 @@ In this project, we developed a sentiment classification system using the Rotten
 ## File Structure
 ```
 .
-├── data/                            # (Optional) Directory for dataset files (e.g., Rotten Tomatoes reviews)
-├── glove/                           # Pre-trained embedding files
-│   ├── glove.6B.50d.txt
-│   ├── glove.6B.300d.txt
-│   ├── glove.6B.50d.word2vec.txt
-│   └── glove.6B.300d.word2vec.txt
-├── histories/                       # Pickle files storing model training histories
-│   ├── bigru_history.pkl
-│   ├── bilstm_history.pkl
-│   ├── cnn_history.pkl
-│   ├── rnn_attention_pool_history.pkl
-│   ├── rnn_attention_pool_trainable_embed_history.pkl
-│   ├── rnn_attention_pool_trainable_embed_mit_oov_history.pkl
-│   ├── rnn_avg_pool_history.pkl
-│   ├── rnn_last_state_history.pkl
-│   └── rnn_max_pool_history.pkl
-├── notebooks/                       # Jupyter notebooks for experiments and model training
-│   ├── main_word2vec.ipynb          # Models using Word2Vec embeddings
-│   ├── main_glove.ipynb             # Models using GloVe embeddings
-│   ├── ensemble.ipynb               # Ensemble model implementation
-│   └── pretrained_models.ipynb      # Fine-tuning pre-trained Transformer models
-├── requirements.txt                 # Python package dependencies
-└── README.md                        # Project documentation (this file)
+├── glove/                                   # Directory containing pre-trained embedding files
+│   ├── glove.6B.50d.txt                     # GloVe embeddings with 50 dimensions
+│   ├── glove.6B.300d.txt                    # GloVe embeddings with 300 dimensions
+│   ├── glove.6B.50d.word2vec.txt            # Word2Vec-formatted GloVe embeddings (50d)
+│   └── glove.6B.300d.word2vec.txt           # Word2Vec-formatted GloVe embeddings (300d)
+├── histories/                               # Directory with pickle files saving model training histories
+│   ├── bigru_history.pkl                    
+│   ├── bilstm_history.pkl                   
+│   ├── cnn_history.pkl                      
+│   ├── rnn_attention_pool_history.pkl          
+│   ├── rnn_attention_pool_trainable_embed_history.pkl 
+│   ├── rnn_attention_pool_trainable_embed_mit_oov_history.pkl  
+│   ├── rnn_avg_pool_history.pkl    
+│   ├── rnn_last_state_history.pkl 
+│   └── rnn_max_pool_history.pkl    
+├── main_word2vec.ipynb                      # Notebook implementing models with Word2Vec embeddings
+├── main_glove.ipynb                         # Notebook implementing models with GloVe embeddings (generally superior performance)
+├── pretrained_models.ipynb                  # Notebook for fine-tuning and evaluating state-of-the-art Transformer models
+├── requirements.txt                         # List of Python dependencies for the project
+├── REPORT.pdf                               # Comprehensive project report detailing methodology, experiments, and analysis
 ```
 
 ## Installation
