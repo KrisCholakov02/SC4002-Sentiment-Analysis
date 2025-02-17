@@ -37,13 +37,13 @@ In this project, we developed a sentiment classification system using the Rotten
 ## File Structure
 ```
 .
-├── data/                   # (Optional) Directory for dataset files (e.g., Rotten Tomatoes reviews)
-├── glove/                  # Pre-trained embedding files
+├── data/                            # (Optional) Directory for dataset files (e.g., Rotten Tomatoes reviews)
+├── glove/                           # Pre-trained embedding files
 │   ├── glove.6B.50d.txt
 │   ├── glove.6B.300d.txt
 │   ├── glove.6B.50d.word2vec.txt
 │   └── glove.6B.300d.word2vec.txt
-├── histories/              # Pickle files storing model training histories
+├── histories/                       # Pickle files storing model training histories
 │   ├── bigru_history.pkl
 │   ├── bilstm_history.pkl
 │   ├── cnn_history.pkl
@@ -53,13 +53,13 @@ In this project, we developed a sentiment classification system using the Rotten
 │   ├── rnn_avg_pool_history.pkl
 │   ├── rnn_last_state_history.pkl
 │   └── rnn_max_pool_history.pkl
-├── notebooks/              # Jupyter notebooks for experiments and model training
-│   ├── main_word2vec.ipynb         # Models using Word2Vec embeddings
-│   ├── main_glove.ipynb            # Models using GloVe embeddings
-│   ├── ensemble.ipynb              # Ensemble model implementation
-│   └── pretrained_models.ipynb     # Fine-tuning pre-trained Transformer models
-├── requirements.txt        # Python package dependencies
-└── README.md               # Project documentation (this file)
+├── notebooks/                       # Jupyter notebooks for experiments and model training
+│   ├── main_word2vec.ipynb          # Models using Word2Vec embeddings
+│   ├── main_glove.ipynb             # Models using GloVe embeddings
+│   ├── ensemble.ipynb               # Ensemble model implementation
+│   └── pretrained_models.ipynb      # Fine-tuning pre-trained Transformer models
+├── requirements.txt                 # Python package dependencies
+└── README.md                        # Project documentation (this file)
 ```
 
 ## Installation
