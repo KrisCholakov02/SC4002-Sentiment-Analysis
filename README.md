@@ -5,8 +5,8 @@
 This repository contains the code submission for Group 3's SC4002 group project on sentiment analysis using various NLP models.
 
 ## Group Members
-- Jerome Wang (U2120160F)
 - Cholakov Kristiyan Kamenov (U2123543B)
+- Jerome Wang (U2120160F)
 - Goh Soong Wen Ryan (U2120980L)
 - Denzyl David Peh (U2122190F)
 - Clement Tan Kang Hao (U2122052K)
